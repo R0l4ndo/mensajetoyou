@@ -34,8 +34,8 @@ body {
 }
 .imagen{
     float: left;
-    margin-right: 10px;
-    margin-left: 50px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 .pantalla1 .boton {
     width: 100%;

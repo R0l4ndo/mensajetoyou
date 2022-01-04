@@ -133,7 +133,7 @@
                                                 width: '75%',
                                                 color: 'whitesmoke',
                                                 background: '#00000000',
-                                                confirmButtonText:'Sí, enviaré',
+                                                confirmButtonText:'y acabó',
                                             });
                                     }
                                        

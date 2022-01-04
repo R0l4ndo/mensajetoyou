@@ -1,42 +1,43 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg');
+    background-image: url("https://lh6.googleusercontent.com/proxy/PcnNzf5V_w0rHoqHBNlIT5Fm4C3FffyAh3fwvMtZcCnNYCq9q5jwWXpFSJKLS6wfBFQnn7c1Es1RfZabpqYQwxbyYM3Zvx8ELbGLKe8d5r0TcGBfKP-924RvYA=w680");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
 }
-.pantalla1{
+.imagen{
+    margin-top: 1px;
+}
+
+.pantalla1 {
     width: 400px;
-    text-align: center;
-    background: #243030000;
-    padding: 20px;
+    background: #24303c;
+    padding: 30px;
     margin: auto;
     margin-top: 175px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-    box-shadow: 3px 3px 20px rgb(87, 83, 83);
+    box-shadow: 7px 13px 37px #000;
 }
-.pantalla1 h2{
-    width: 100%;
-    padding: 10px;
-    font-family: 'calibri';
-    font-size: 40px;
-    color: rgb(171, 228, 17);
+
+.pantalla1 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.pantalla1 h4{
-    width: 100%;
-    padding: 10px;
-    font-family: 'calibri';
-    font-size: 25px;
-    color: rgb(51, 216, 106);
+.pantalla1 h4 {
+    font-size: 20px;
+    text-align: center;
 }
-.pantalla1 .boton{
+
+.pantalla1 .boton {
     width: 100%;
     background: #1f53c5;
     border: none;
@@ -45,6 +46,68 @@ body {
     margin: 16px 0;
     font-size: 16px;
 }
-.pantalla1 .boton:hover{
+
+.pantalla1 .boton:hover {
     cursor: pointer;
+}
+
+@media (max-width:480px) {
+    .pantalla1 {
+        width: 100%;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0, 4);
+    margin-top: 20px;
+}
+
+.sonidos {
+    width: 0px;
+    padding: 40px;
+    background: #00000000;
+    padding: 0px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.despedida {
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 175px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 20px 5px 100px #000;
+}
+
+.despedida h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.despedida h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.despedida h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.titulo {
+    color: white;
+}
+
+.contenido {
+    color: whitesmoke;
 }

@@ -11,10 +11,6 @@ body {
     background-attachment: fixed;
 
 }
-.imagen{
-    margin-top: 1px;
-}
-
 .pantalla1 {
     width: 400px;
     background: #24303c;
@@ -34,9 +30,11 @@ body {
 }
 .pantalla1 h4 {
     font-size: 20px;
-    text-align: center;
+    margin-right: 20px;
 }
-
+.imagen{
+    float: left;
+}
 .pantalla1 .boton {
     width: 100%;
     background: #1f53c5;

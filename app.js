@@ -135,6 +135,9 @@
                                                 background: '#00000000',
                                                 confirmButtonText:'y acabó',
                                             });
+                                            if (linea11) {
+                                                document.getElementById('despedida').style.display = 'block';
+                                            }
                                     }
                                        
                                     }
@@ -150,4 +153,5 @@
 
 setTimeout(function() {
 sonido.innerHTML = '<audio src="Ese no se qué.mp3" controls autoplay></audio>'
-},);
+});
+

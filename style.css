@@ -13,7 +13,7 @@ body {
 }
 .pantalla1 {
     width: 400px;
-    background: #24303c;
+    background: #30353b2c;
     padding: 30px;
     margin: auto;
     margin-top: 175px;
@@ -35,7 +35,7 @@ body {
 .imagen{
     float: left;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 75px;
 }
 .pantalla1 .boton {
     width: 100%;
@@ -75,6 +75,7 @@ h1 {
 }
 
 .despedida {
+    display: none;
     width: 350px;
     padding: 20px;
     margin: auto;
@@ -85,25 +86,35 @@ h1 {
     box-shadow: 20px 5px 100px #000;
 }
 
-.despedida h1 {
+.despedida h4 {
     font-size: 50px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.despedida h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-align: center;
+.despedida .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
 
-.despedida h3 {
-    font-size: 15px;
+.despedida h4 {
+    font-size: 50px;
     margin-bottom: 10px;
     text-align: center;
 }
-
-
+.despedida .boton:hover {
+    cursor: pointer;
+}
+.imagen2 {
+    float: left;
+    margin-right: 5px;
+    margin-left: 75px;
+}
 .titulo {
     color: white;
 }

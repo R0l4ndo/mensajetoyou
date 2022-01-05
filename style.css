@@ -113,6 +113,7 @@ h1 {
 }
 .imagen2 {
     float: left;
+    background-color: aliceblue;
     margin-right: 5px;
     margin-left: 75px;
 }

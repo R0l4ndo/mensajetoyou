@@ -33,6 +33,7 @@ body {
     margin-right: 20px;
 }
 .imagen{
+    background-color: aliceblue;
     float: left;
     margin-right: 5px;
     margin-left: 75px;
